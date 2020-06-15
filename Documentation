@@ -1,0 +1,9 @@
+The lab has both SQL database implmented localy and uses the Azure Cosmos DB Emulator for MongoDB for the NoSQL part.
+The reports are shown in the Default.aspx when starting the application i fthe user scrolls down.
+The first 6 tables are from the SQL database while the last two are from the NoSQL MongoDB database.
+The report are printed when the page loads the SQL part inthe Default.aspx code while the NoSQL report is called in the page load.
+The code works like lab2 except that the car part is hidden since we dont need to use that part for this lab.
+The user enters the data for desired booking and it will be saved into the database.
+For the SQL database I use a connectionString and use the necessary SQL command in order to input the data that the user entered.
+For the NoSQL database I have objects of Transaction and Customer these gets saved into the MongoDB database in the Mongo class.
+Comments exist through out the code to explain the usage of the parts.
